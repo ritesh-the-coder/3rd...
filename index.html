@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>3 Months With My Meow 😺</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      font-family:'Poppins',sans-serif;
+      background:#000;
+      overflow-x:hidden;
+      color:white;
+    }
+
+    /* BACKGROUND */
+
+    .bg{
+      position:fixed;
+      width:100%;
+      height:100%;
+      background:
+      radial-gradient(circle at top,#ff006a22,transparent 40%),
+      radial-gradient(circle at bottom,#6a00ff22,transparent 40%),
+      #000;
+      z-index:-2;
+    }
+
+    .stars{
+      position:fixed;
+      width:100%;
+      height:100%;
+      background:url("https://www.transparenttextures.com/patterns/stardust.png");
+      opacity:0.25;
+      animation:move 120s linear infinite;
+      z-index:-1;
+    }
+
+    @keyframes move{
+      from{
+        transform:translateY(0);
+      }
+      to{
+        transform:translateY(-1000px);
+      }
+    }
+
+    /* HERO */
+
+    .hero{
+      min-height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-direction:column;
+      text-align:center;
+      padding:30px;
+    }
+
+    .hero img{
+      width:320px;
+      max-width:85%;
+      height:420px;
+      object-fit:cover;
+      border-radius:30px;
+      box-shadow:
+      0 0 25px #ff0080,
+      0 0 60px #ff008055;
+      animation:float 5s ease-in-out infinite;
+      transition:0.5s;
+    }
+
+    .hero img:hover{
+      transform:scale(1.03);
+    }
+
+    @keyframes float{
+      0%,100%{
+        transform:translateY(0);
+      }
+      50%{
+        transform:translateY(-15px);
+      }
+    }
+
+    h1{
+      margin-top:35px;
+      font-size:4rem;
+      font-weight:700;
+      background:linear-gradient(to right,#ff4da6,#ffd6ec);
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent;
+    }
+
+    .subtitle{
+      margin-top:15px;
+      font-size:1.2rem;
+      opacity:0.8;
+    }
+
+    .heart{
+      font-size:55px;
+      margin-top:20px;
+      animation:beat 1s infinite;
+    }
+
+    @keyframes beat{
+      0%,100%{
+        transform:scale(1);
+      }
+      50%{
+        transform:scale(1.3);
+      }
+    }
+
+    /* LETTER */
+
+    .container{
+      width:100%;
+      display:flex;
+      justify-content:center;
+      padding:40px 20px 100px;
+    }
+
+    .letter{
+      width:100%;
+      max-width:1000px;
+      background:rgba(255,255,255,0.06);
+      border:1px solid rgba(255,255,255,0.1);
+      backdrop-filter:blur(18px);
+      border-radius:35px;
+      padding:50px;
+      box-shadow:
+      0 0 40px rgba(255,0,120,0.18);
+    }
+
+    .letter h2{
+      font-size:2.5rem;
+      margin-bottom:30px;
+      text-align:center;
+      color:#ffb3d9;
+    }
+
+    .letter p{
+      line-height:2.1;
+      font-size:1.1rem;
+      color:#f2f2f2;
+      margin-bottom:22px;
+      font-weight:300;
+    }
+
+    .highlight{
+      color:#ff7abf;
+      font-weight:600;
+    }
+
+    .footer{
+      text-align:center;
+      padding-bottom:60px;
+      opacity:0.7;
+      font-size:1rem;
+    }
+
+    /* MOBILE */
+
+    @media(max-width:768px){
+
+      h1{
+        font-size:2.8rem;
+      }
+
+      .hero img{
+        width:260px;
+        height:340px;
+      }
+
+      .letter{
+        padding:30px;
+      }
+
+      .letter h2{
+        font-size:2rem;
+      }
+
+      .letter p{
+        font-size:1rem;
+        line-height:1.9;
+      }
+
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="bg"></div>
+  <div class="stars"></div>
+
+  <!-- HERO -->
+
+  <section class="hero">
+
+    <img src="baby%20pal.jpg" alt="Meow 😺">
+
+    <h1>Happy 3 Months Meow 😺</h1>
+
+    <div class="subtitle">
+      3 months of love, memories, madness & us ❤️
+    </div>
+
+    <div class="heart">💖</div>
+
+  </section>
+
+  <!-- LETTER -->
+
+  <section class="container">
+
+    <div class="letter">
+
+      <h2>To My Meow 😺</h2>
+
+      <p>
+        Meow 😺, honestly I still can’t believe that it has already been three months of us. Three whole months of conversations, smiles, random moments, memories, fights, care, love, and everything in between. Time with you feels so weird in the best possible way because sometimes it feels like we just met yesterday, and sometimes it feels like you’ve been part of my life forever. And maybe that’s what makes all of this so special to me.
+      </p>
+
+      <p>
+        Before you came into my life, days were honestly just normal. Nothing felt exciting, nothing really stayed in my mind for long. But then <span class="highlight">you happened, Meow 😺</span>. Slowly, without me even realizing it, you became the best part of my days. Your texts became my favorite notifications, your voice became my comfort place, and your presence started meaning more to me than I could ever explain properly.
+      </p>
+
+      <p>
+        Babe, there’s something about you that feels different from everyone else. Maybe it’s your smile, maybe it’s the way you talk, maybe it’s the way you understand me even when I don’t say much. Or maybe it’s simply because you’re you. And honestly? That’s enough for me. I don’t need perfection, I just need <span class="highlight">my Meow 😺</span>.
+      </p>
+
+      <p>
+        These three months gave me so many memories that I keep replaying in my head at random times. The late-night talks, the random laughs, the cute moments, the silly conversations, the small caring gestures — everything matters to me more than you probably know. Sometimes I literally sit there smiling at my phone like an idiot because of you 😭❤️
+      </p>
+
+      <p>
+        And you know what I love the most? The comfort. The feeling that no matter how stressful or weird the day gets, talking to you somehow makes everything feel lighter. You became my peace without even trying. That’s rare. Really rare.
+      </p>
+
+      <p>
+        Meow 😺, I know we’re still creating our story, and honestly I don’t want to rush anything. I just want more moments with you. More memories. More random talks. More laughs. More stupid jokes. More late-night conversations. More “good morning” texts. More everything.
+      </p>
+
+      <p>
+        If these three months already feel this beautiful, then I genuinely can’t wait to see what the future holds for us. Because if I’m being real, I don’t just like talking to you anymore… I’ve become attached to you in the softest and sweetest way possible ❤️
+      </p>
+
+      <p>
+        Thank you for being here, Meow 😺. Thank you for your care, your time, your effort, your attention, and all those little things you do that make me feel special without even realizing it. You’ve made my life brighter, calmer, happier, and honestly way more beautiful than before.
+      </p>
+
+      <p>
+        No matter what happens later, one thing will always stay true — these moments with you will always mean something precious to me. And right now, in this moment, I just want you to know one simple thing:
+      </p>
+
+      <p class="highlight" style="text-align:center; font-size:1.3rem;">
+        I’m really, really happy that it’s you, my Meow 😺❤️
+      </p>
+
+    </div>
+
+  </section>
+
+  <div class="footer">
+    Made with endless love for my Meow 😺
+  </div>
+
+</body>
+</html>
